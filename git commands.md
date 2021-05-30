@@ -430,3 +430,26 @@ Your identification has been saved with the new passphrase.
 ## Adding another
 
 `vi main.py`
+
+no need to add origin now it has been register by first push
+
+`git push`
+
+## Git Pull
+
+So we have change the readme file on github so see changes we need to pull
+`git pull`
+
+```bash
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.11 KiB | 379.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mrbean0007/learning-git.git
+   6930adf..15f966f  main -> main
+
+```
